@@ -2,22 +2,23 @@
 
 ary = [34,29,783,73,12,238]
 
-i =
-while      do
-	min =
-	j = 
-	while     do
-		if         then
-			min =
+i =0
+while i<5     do
+	min=i
+	j=i+1
+	while j<ary.length     do
+		if ary[min]>ary[j]
+        then
+			min=j
 		end
-	j = 
+	j+=1
 	end
 	
-	w = ary[]
-	ary[] = ary[]
-	ary[] = w
+	w = ary[min]
+	ary[min] = ary[i]
+	ary[i] = w
 	
-	i = 
+	i+=1
 end
 
 puts ary
